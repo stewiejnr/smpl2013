@@ -11,7 +11,7 @@ import java.io.IOException;
 
 %type java_cup.runtime.Symbol
 
-%eofval {
+%eofval{
 	return new Symbol(sym.EOF);
 %eofval}
 
